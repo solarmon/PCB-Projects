@@ -1,4 +1,4 @@
-update=21/11/2020 21:04:46
+update=22/11/2020 08:55:57
 version=1
 last_client=pcbnew
 [general]
@@ -237,6 +237,17 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
+Name=GND
+Clearance=0.2
+TrackWidth=0.5
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
 Name=VCC
 Clearance=0.2
 TrackWidth=1
