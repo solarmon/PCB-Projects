@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Greaseweazle-F1-Gotek-rescue)(type Legacy)(uri "${KIPRJMOD}/Greaseweazle F1 Gotek-rescue.lib")(options "")(descr ""))
+)

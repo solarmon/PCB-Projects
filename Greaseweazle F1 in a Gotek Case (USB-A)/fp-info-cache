@@ -1,0 +1,176 @@
+35083046912592
+w_conn_pc
+conn_hdd_15-24-4441
+5.08mm Disk drive power connector, 90°, Molex P/N 15-24-4441
+
+0
+4
+4
+w_conn_pc
+conn_hdd_15-24-4449
+5.08mm Disk drive power connector, Molex P/N 15-24-4449
+
+0
+4
+4
+w_conn_pc
+conn_usb_A
+USB A-type receptacle, Tyco P/N 292303-3
+
+0
+6
+4
+w_conn_pc
+conn_usb_A-vert
+USB A-type vertical receptacle, Tyco P/N 440260-2
+
+0
+8
+4
+w_conn_pc
+conn_usb_A-vert2
+USB A-type vertical receptacle, Lumberg P/N 2410-01
+
+0
+6
+4
+w_conn_pc
+conn_usb_Ax2
+USB A-type receptacle, 2x stacked, Tyco P/N 5787617-3
+
+0
+12
+8
+w_conn_pc
+conn_usb_B
+USB B-type receptacle, Lumberg P/N 2411-02
+USB
+0
+6
+4
+w_conn_pc
+conn_usb_B-vert
+USB B-type vertical receptacle, Molex series 67265
+USB
+0
+8
+4
+w_conn_pc
+conn_usb_B_micro_smd
+USB B micro SMD connector, Molex P/N 47346-0001
+
+0
+11
+5
+w_conn_pc
+conn_usb_B_micro_smd-2
+USB B micro SMD connector with retention pins
+
+0
+9
+5
+w_conn_pc
+conn_usb_B_micro_smd-3
+USB B micro SMD connector with retention pins
+
+0
+9
+5
+w_conn_pc
+conn_usb_B_mini_smd
+USB B mini SMD connector
+
+0
+9
+5
+w_conn_pc
+DB_15F-VGA
+D-SUB 15 pin VGA socket, Tyco P/N 440467-1
+
+0
+17
+15
+w_conn_pc
+dvi
+DVI connector, Tyco P/N 1-1734147-1
+
+0
+32
+29
+w_conn_pc
+pci-x_conn-x1
+PCI-X 1x card edge connector, FCI P/N 10018783-10x00x
+
+0
+36
+36
+w_conn_pc
+pci-x_conn-x4
+PCI-X 4x card edge connector, FCI P/N 10018783-10x01x
+
+0
+64
+64
+w_conn_pc
+pci-x_conn-x8
+PCI-X 8x card edge connector, FCI P/N 10018783-10x02x
+
+0
+98
+98
+w_conn_pc
+pci-x_conn-x16
+PCI-X 16x card edge connector, FCI P/N 10018783-10x03x
+
+0
+164
+164
+w_conn_pc
+pci_conn
+PCI card edge connector, Molex P/N 48200-60xx
+
+0
+120
+120
+w_conn_pc
+rj45-noshield
+RJ45, unshielded
+
+0
+8
+8
+w_conn_pc
+rj45-shield
+RJ45, shielded
+
+0
+10
+8
+w_conn_pc
+rj45-tyco-2-406549-7
+RJ45 + led indicators, Tyco P/N 2-406549-7
+
+0
+14
+12
+w_conn_pc
+rj45-tyco-5-6605758-4
+RJ45 + led indicators, Tyco P/N 5-6605758-4
+
+0
+14
+12
+w_conn_pc
+rj45-wiznet-rb1-125bag1a
+RJ45 + led indicators, Wiznet P/N RB1-125BAG1A
+
+0
+14
+13
+w_conn_pc
+rj45_wurth-7499211122a
+RJ45 + led + 10/100BaseT mag + PoE, Wurth P/N 7499211122a
+
+0
+15
+14

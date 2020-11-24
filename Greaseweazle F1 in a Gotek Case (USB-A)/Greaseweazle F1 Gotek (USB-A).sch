@@ -1,0 +1,664 @@
+EESchema Schematic File Version 4
+LIBS:Greaseweazle F1 Gotek-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR0101
+U 1 1 558A9BDE
+P 10950 6250
+F 0 "#PWR0101" H 10950 6000 50  0001 C CNN
+F 1 "GND" H 10950 6100 50  0000 C CNN
+F 2 "" H 10950 6250 60  0000 C CNN
+F 3 "" H 10950 6250 60  0000 C CNN
+	1    10950 6250
+	1    0    0    -1  
+$EndComp
+Text Label 9950 4550 0    60   ~ 0
+_SIDE
+Text Label 9950 4650 0    60   ~ 0
+_DKRD
+Text Label 9950 4750 0    60   ~ 0
+_WRPROT
+Text Label 9950 4850 0    60   ~ 0
+_TRK0
+Text Label 9950 4950 0    60   ~ 0
+_DKWE
+Text Label 9950 5050 0    60   ~ 0
+_DKWD
+Text Label 9950 5150 0    60   ~ 0
+_STEP
+Text Label 9950 5250 0    60   ~ 0
+_DIR
+Text Label 9950 6050 0    60   ~ 0
+_DENSEL
+$Comp
+L Greaseweazle-F1-Gotek-rescue:R-GW-rescue R3
+U 1 1 558D9E66
+P 9250 4100
+F 0 "R3" V 9330 4100 50  0000 C CNN
+F 1 "1K" V 9250 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9180 4100 30  0001 C CNN
+F 3 "" H 9250 4100 30  0000 C CNN
+	1    9250 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 558DABAC
+P 9250 3950
+F 0 "#PWR0102" H 9250 3800 50  0001 C CNN
+F 1 "+5V" H 9250 4090 50  0000 C CNN
+F 2 "" H 9250 3950 60  0000 C CNN
+F 3 "" H 9250 3950 60  0000 C CNN
+	1    9250 3950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10350 5850
+NoConn ~ 10350 5950
+Text Label 3200 4950 0    60   ~ 0
+_SIDE
+Text Label 3200 4750 0    60   ~ 0
+_STEP
+Text Label 5200 5050 0    60   ~ 0
+_MTR
+Text Label 5200 5150 0    60   ~ 0
+_SEL
+Text Label 3200 5750 0    60   ~ 0
+_DKWD
+Text Label 3200 4850 0    60   ~ 0
+_DKWE
+Text Label 3200 4650 0    60   ~ 0
+_DIR
+Text Label 5200 6150 0    60   ~ 0
+USB_CONN
+Text Label 3200 5350 0    60   ~ 0
+USB_D-
+Text Label 3200 6150 0    60   ~ 0
+_WRPROT
+Text Label 3200 5950 0    60   ~ 0
+_INDEX
+Text Label 3200 5450 0    60   ~ 0
+USB_D+
+Text Label 3200 6250 0    60   ~ 0
+_DENSEL
+Text Label 3200 5650 0    60   ~ 0
+_DKRD
+Text Label 3200 6050 0    60   ~ 0
+_TRK0
+Text Label 3200 5150 0    60   ~ 0
+SER_TX
+Text Label 3200 5250 0    60   ~ 0
+SER_RX
+Text Notes 10350 4300 0    60   ~ 0
+Floppy Data\n
+$Comp
+L Greaseweazle-F1-Gotek-rescue:TAOBAO-FF-GW-rescue U1
+U 1 1 559B9AF3
+P 4400 4500
+F 0 "U1" H 4400 4500 60  0000 C CNN
+F 1 "Blue Pill" H 4400 2250 60  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 4400 4500 60  0001 C CNN
+F 3 "" H 4400 4500 60  0000 C CNN
+	1    4400 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0106
+U 1 1 5828C900
+P 2850 6150
+F 0 "#PWR0106" H 2850 6000 50  0001 C CNN
+F 1 "+5V" H 2850 6290 50  0000 C CNN
+F 2 "" H 2850 6150 60  0000 C CNN
+F 3 "" H 2850 6150 60  0000 C CNN
+	1    2850 6150
+	1    0    0    -1  
+$EndComp
+Text Label 5200 4650 0    60   ~ 0
+GND
+Text Label 5200 4750 0    60   ~ 0
+GND
+Text Label 3200 6450 0    60   ~ 0
+GND
+Wire Wire Line
+	10950 4450 10950 4550
+Wire Wire Line
+	10850 5950 10950 5950
+Connection ~ 10950 5950
+Wire Wire Line
+	10850 5850 10950 5850
+Connection ~ 10950 5850
+Wire Wire Line
+	10850 5750 10950 5750
+Connection ~ 10950 5750
+Wire Wire Line
+	10850 5650 10950 5650
+Connection ~ 10950 5650
+Wire Wire Line
+	10850 5550 10950 5550
+Connection ~ 10950 5550
+Wire Wire Line
+	10850 5450 10950 5450
+Connection ~ 10950 5450
+Wire Wire Line
+	10850 5350 10950 5350
+Connection ~ 10950 5350
+Wire Wire Line
+	10850 5250 10950 5250
+Connection ~ 10950 5250
+Wire Wire Line
+	10850 5150 10950 5150
+Connection ~ 10950 5150
+Wire Wire Line
+	10850 5050 10950 5050
+Connection ~ 10950 5050
+Wire Wire Line
+	10850 4950 10950 4950
+Connection ~ 10950 4950
+Wire Wire Line
+	10850 4850 10950 4850
+Connection ~ 10950 4850
+Wire Wire Line
+	10850 4750 10950 4750
+Connection ~ 10950 4750
+Wire Wire Line
+	10850 4650 10950 4650
+Connection ~ 10950 4650
+Wire Wire Line
+	10850 4550 10950 4550
+Connection ~ 10950 4550
+Wire Wire Line
+	10850 4450 10950 4450
+Wire Wire Line
+	9850 6050 10350 6050
+Wire Wire Line
+	5650 5150 5150 5150
+Wire Wire Line
+	5150 6150 5650 6150
+Wire Wire Line
+	5150 5050 5650 5050
+Wire Wire Line
+	5150 4750 5650 4750
+Wire Wire Line
+	5150 4650 5650 4650
+Wire Wire Line
+	3150 5750 3650 5750
+Wire Wire Line
+	3650 5650 3150 5650
+Wire Wire Line
+	3650 5450 3150 5450
+Wire Wire Line
+	3150 5350 3650 5350
+Wire Wire Line
+	3650 5250 3150 5250
+Wire Wire Line
+	3150 5150 3650 5150
+Wire Wire Line
+	3150 4850 3650 4850
+Wire Wire Line
+	3650 4750 3150 4750
+Wire Wire Line
+	3650 5950 3150 5950
+Wire Wire Line
+	3650 4950 3150 4950
+Wire Wire Line
+	3650 6050 3150 6050
+Wire Wire Line
+	3150 6150 3650 6150
+Wire Wire Line
+	3150 6250 3650 6250
+Wire Wire Line
+	3150 6450 3650 6450
+Wire Wire Line
+	3650 4650 3150 4650
+Wire Wire Line
+	3650 6350 2850 6350
+Wire Wire Line
+	2850 6350 2850 6150
+Wire Wire Line
+	10950 5850 10950 5950
+Wire Wire Line
+	10950 5750 10950 5850
+Wire Wire Line
+	10950 5650 10950 5750
+Wire Wire Line
+	10950 5550 10950 5650
+Wire Wire Line
+	10950 5450 10950 5550
+Wire Wire Line
+	10950 5350 10950 5450
+Wire Wire Line
+	10950 5250 10950 5350
+Wire Wire Line
+	10950 5150 10950 5250
+Wire Wire Line
+	10950 5050 10950 5150
+Wire Wire Line
+	10950 4950 10950 5050
+Wire Wire Line
+	10950 4850 10950 4950
+Wire Wire Line
+	10950 4750 10950 4850
+Wire Wire Line
+	10950 4650 10950 4750
+Wire Wire Line
+	10950 4550 10950 4650
+NoConn ~ 5150 4950
+NoConn ~ 5150 5250
+NoConn ~ 5150 5350
+Wire Wire Line
+	10350 4550 9850 4550
+Wire Wire Line
+	10350 4950 9850 4950
+Wire Wire Line
+	10350 5050 9850 5050
+Wire Wire Line
+	10350 5150 9850 5150
+Wire Wire Line
+	10350 5250 9850 5250
+Text Label 9950 5350 0    60   ~ 0
+_MTR
+NoConn ~ 10350 4450
+Wire Wire Line
+	9700 4650 9700 4250
+Wire Wire Line
+	9700 4650 10350 4650
+Wire Wire Line
+	9550 4750 9550 4250
+Wire Wire Line
+	9550 4750 10350 4750
+Wire Wire Line
+	9400 4850 9400 4250
+Wire Wire Line
+	9400 4850 10350 4850
+Wire Wire Line
+	9250 5750 10350 5750
+$Comp
+L Greaseweazle-F1-Gotek-rescue:R-GW-rescue R2
+U 1 1 5DAAA6FC
+P 9400 4100
+F 0 "R2" V 9480 4100 50  0000 C CNN
+F 1 "1K" V 9400 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9330 4100 30  0001 C CNN
+F 3 "" H 9400 4100 30  0000 C CNN
+	1    9400 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0107
+U 1 1 5DAAA702
+P 9400 3950
+F 0 "#PWR0107" H 9400 3800 50  0001 C CNN
+F 1 "+5V" H 9400 4090 50  0000 C CNN
+F 2 "" H 9400 3950 60  0000 C CNN
+F 3 "" H 9400 3950 60  0000 C CNN
+	1    9400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Greaseweazle-F1-Gotek-rescue:R-GW-rescue R1
+U 1 1 5DAAEE03
+P 9550 4100
+F 0 "R1" V 9630 4100 50  0000 C CNN
+F 1 "1K" V 9550 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9480 4100 30  0001 C CNN
+F 3 "" H 9550 4100 30  0000 C CNN
+	1    9550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0108
+U 1 1 5DAAEE09
+P 9550 3950
+F 0 "#PWR0108" H 9550 3800 50  0001 C CNN
+F 1 "+5V" H 9550 4090 50  0000 C CNN
+F 2 "" H 9550 3950 60  0000 C CNN
+F 3 "" H 9550 3950 60  0000 C CNN
+	1    9550 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Greaseweazle-F1-Gotek-rescue:R-GW-rescue R4
+U 1 1 5DAB3504
+P 9700 4100
+F 0 "R4" V 9780 4100 50  0000 C CNN
+F 1 "1K" V 9700 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9630 4100 30  0001 C CNN
+F 3 "" H 9700 4100 30  0000 C CNN
+	1    9700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0109
+U 1 1 5DAB350A
+P 9700 3950
+F 0 "#PWR0109" H 9700 3800 50  0001 C CNN
+F 1 "+5V" H 9700 4090 50  0000 C CNN
+F 2 "" H 9700 3950 60  0000 C CNN
+F 3 "" H 9700 3950 60  0000 C CNN
+	1    9700 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 5750 9250 4250
+$Comp
+L Greaseweazle-F1-Gotek-rescue:R-GW-rescue R8
+U 1 1 5DAD5D7C
+P 5750 2100
+F 0 "R8" V 5830 2100 50  0000 C CNN
+F 1 "1.5K" V 5750 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5680 2100 30  0001 C CNN
+F 3 "" H 5750 2100 30  0000 C CNN
+	1    5750 2100
+	-1   0    0    1   
+$EndComp
+NoConn ~ 5150 5450
+NoConn ~ 5150 5550
+NoConn ~ 5150 5650
+NoConn ~ 5150 5750
+NoConn ~ 5150 5850
+NoConn ~ 5150 5950
+NoConn ~ 5150 6050
+NoConn ~ 5150 6250
+NoConn ~ 5150 6350
+NoConn ~ 5150 6450
+NoConn ~ 5150 6550
+NoConn ~ 3650 5850
+NoConn ~ 3650 5550
+NoConn ~ 3650 5050
+$Comp
+L Connector:USB_A J1
+U 1 1 5FBE11E2
+P 4300 2450
+F 0 "J1" H 4357 2917 50  0000 C CNN
+F 1 "USB A" H 4357 2826 50  0000 C CNN
+F 2 "w_conn_pc:conn_usb_A" H 4450 2400 50  0001 C CNN
+F 3 " ~" H 4450 2400 50  0001 C CNN
+	1    4300 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 5FBF0460
+P 7600 2000
+F 0 "J2" H 7680 1992 50  0000 L CNN
+F 1 "Floppy Power" H 7680 1901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 7600 2000 50  0001 C CNN
+F 3 "~" H 7600 2000 50  0001 C CNN
+	1    7600 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0103
+U 1 1 5FBF169C
+P 7100 1750
+F 0 "#PWR0103" H 7100 1600 50  0001 C CNN
+F 1 "+5V" H 7100 1890 50  0000 C CNN
+F 2 "" H 7100 1750 60  0000 C CNN
+F 3 "" H 7100 1750 60  0000 C CNN
+	1    7100 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 1750 7100 1900
+Wire Wire Line
+	7100 1900 7400 1900
+$Comp
+L power:GND #PWR0104
+U 1 1 5FBFD8B6
+P 7100 2400
+F 0 "#PWR0104" H 7100 2150 50  0001 C CNN
+F 1 "GND" H 7100 2250 50  0000 C CNN
+F 2 "" H 7100 2400 60  0000 C CNN
+F 3 "" H 7100 2400 60  0000 C CNN
+	1    7100 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 2000 7100 2000
+Wire Wire Line
+	7100 2000 7100 2100
+Wire Wire Line
+	7400 2100 7100 2100
+Connection ~ 7100 2100
+Wire Wire Line
+	7100 2100 7100 2400
+NoConn ~ 7400 2200
+$Comp
+L power:+5V #PWR0105
+U 1 1 5FBAF79D
+P 4600 2000
+F 0 "#PWR0105" H 4600 1850 50  0001 C CNN
+F 1 "+5V" H 4600 2140 50  0000 C CNN
+F 2 "" H 4600 2000 60  0000 C CNN
+F 3 "" H 4600 2000 60  0000 C CNN
+	1    4600 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2000 4600 2250
+$Comp
+L power:GND #PWR0110
+U 1 1 5FBB37E3
+P 4300 3050
+F 0 "#PWR0110" H 4300 2800 50  0001 C CNN
+F 1 "GND" H 4300 2900 50  0000 C CNN
+F 2 "" H 4300 3050 60  0000 C CNN
+F 3 "" H 4300 3050 60  0000 C CNN
+	1    4300 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2850 4300 3050
+$Comp
+L Connector_Generic:Conn_02x17_Odd_Even CN1
+U 1 1 558A939C
+P 10650 5250
+F 0 "CN1" H 10650 6150 50  0000 C CNN
+F 1 "FLOPPY" V 10650 5250 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Vertical" H 10650 4150 60  0001 C CNN
+F 3 "" H 10650 4150 60  0000 C CNN
+	1    10650 5250
+	-1   0    0    1   
+$EndComp
+Text Label 9950 5750 0    60   ~ 0
+_INDEX
+Wire Wire Line
+	10950 6050 10950 6250
+Wire Wire Line
+	10950 5950 10950 6050
+Connection ~ 10950 6050
+Wire Wire Line
+	10950 6050 10850 6050
+Wire Wire Line
+	10300 5550 10350 5550
+Wire Wire Line
+	10300 5450 10350 5450
+Wire Wire Line
+	10300 5450 10300 5550
+Wire Wire Line
+	10250 5350 10350 5350
+Wire Wire Line
+	9850 5350 10250 5350
+Connection ~ 10250 5350
+Wire Wire Line
+	10250 5650 10250 5350
+Connection ~ 10300 5450
+Wire Wire Line
+	10250 5650 10350 5650
+Wire Wire Line
+	9850 5450 10300 5450
+Text Label 9950 5450 0    60   ~ 0
+_SEL
+Text Label 5900 2450 0    60   ~ 0
+USB_D+
+$Comp
+L Greaseweazle-F1-Gotek-rescue:R-GW-rescue R5
+U 1 1 5FC1B25A
+P 5500 2450
+F 0 "R5" V 5580 2450 50  0000 C CNN
+F 1 "22" V 5500 2450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5430 2450 30  0001 C CNN
+F 3 "" H 5500 2450 30  0000 C CNN
+	1    5500 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 2450 4600 2450
+$Comp
+L Greaseweazle-F1-Gotek-rescue:R-GW-rescue R6
+U 1 1 5FC1C57F
+P 5250 2550
+F 0 "R6" V 5330 2550 50  0000 C CNN
+F 1 "22" V 5250 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5180 2550 30  0001 C CNN
+F 3 "" H 5250 2550 30  0000 C CNN
+	1    5250 2550
+	0    -1   -1   0   
+$EndComp
+Text Label 5750 1750 2    60   ~ 0
+USB_CONN
+Wire Wire Line
+	4600 2550 5100 2550
+$Comp
+L Device:LED D1
+U 1 1 5FD2F41A
+P 9200 2100
+F 0 "D1" H 9193 2316 50  0000 C CNN
+F 1 "LED" H 9193 2225 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 9200 2100 50  0001 C CNN
+F 3 "~" H 9200 2100 50  0001 C CNN
+	1    9200 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5FD30EC8
+P 8850 2350
+F 0 "#PWR0111" H 8850 2100 50  0001 C CNN
+F 1 "GND" H 8850 2200 50  0000 C CNN
+F 2 "" H 8850 2350 60  0000 C CNN
+F 3 "" H 8850 2350 60  0000 C CNN
+	1    8850 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 2100 9500 2100
+Wire Wire Line
+	9050 2100 8850 2100
+Wire Wire Line
+	8850 2100 8850 2350
+$Comp
+L Greaseweazle-F1-Gotek-rescue:R-GW-rescue R7
+U 1 1 5FD3A2E0
+P 9650 2100
+F 0 "R7" V 9730 2100 50  0000 C CNN
+F 1 "1.5K" V 9650 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9580 2100 30  0001 C CNN
+F 3 "" H 9650 2100 30  0000 C CNN
+	1    9650 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0112
+U 1 1 5FD4E708
+P 9800 1850
+F 0 "#PWR0112" H 9800 1700 50  0001 C CNN
+F 1 "+3.3V" H 9815 2023 50  0000 C CNN
+F 2 "" H 9800 1850 50  0001 C CNN
+F 3 "" H 9800 1850 50  0001 C CNN
+	1    9800 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 2100 9800 1850
+$Comp
+L power:+3.3V #PWR0113
+U 1 1 5FD59869
+P 6050 4700
+F 0 "#PWR0113" H 6050 4550 50  0001 C CNN
+F 1 "+3.3V" H 6065 4873 50  0000 C CNN
+F 2 "" H 6050 4700 50  0001 C CNN
+F 3 "" H 6050 4700 50  0001 C CNN
+	1    6050 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 4850 6050 4850
+Wire Wire Line
+	6050 4850 6050 4700
+$Comp
+L Connector_Generic:Conn_01x04 J3
+U 1 1 5FDB89A4
+P 8000 3100
+F 0 "J3" H 8080 3092 50  0000 L CNN
+F 1 "Programming Port" H 8080 3001 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 8000 3100 50  0001 C CNN
+F 3 "~" H 8000 3100 50  0001 C CNN
+	1    8000 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0114
+U 1 1 5FDBD5C2
+P 7100 2900
+F 0 "#PWR0114" H 7100 2750 50  0001 C CNN
+F 1 "+5V" H 7100 3040 50  0000 C CNN
+F 2 "" H 7100 2900 60  0000 C CNN
+F 3 "" H 7100 2900 60  0000 C CNN
+	1    7100 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5FDBDC26
+P 7100 3550
+F 0 "#PWR0115" H 7100 3300 50  0001 C CNN
+F 1 "GND" H 7100 3400 50  0000 C CNN
+F 2 "" H 7100 3550 60  0000 C CNN
+F 3 "" H 7100 3550 60  0000 C CNN
+	1    7100 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 3200 7100 3200
+Wire Wire Line
+	7100 3200 7100 2900
+Wire Wire Line
+	7800 3300 7100 3300
+Wire Wire Line
+	7100 3300 7100 3550
+Text Label 7350 3100 0    60   ~ 0
+SER_TX
+Text Label 7300 3000 0    60   ~ 0
+SER_RX
+Wire Wire Line
+	7300 3100 7800 3100
+Wire Wire Line
+	7800 3000 7300 3000
+Wire Wire Line
+	5900 2550 5400 2550
+Wire Wire Line
+	5650 2450 5750 2450
+Text Label 5900 2550 0    60   ~ 0
+USB_D-
+NoConn ~ 4200 2850
+Connection ~ 5750 2450
+Wire Wire Line
+	5750 2450 5900 2450
+Wire Wire Line
+	5750 2250 5750 2450
+Wire Wire Line
+	5750 1750 5750 1950
+$EndSCHEMATC
