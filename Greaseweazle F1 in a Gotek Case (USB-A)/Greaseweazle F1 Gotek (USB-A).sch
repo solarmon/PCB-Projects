@@ -71,18 +71,12 @@ Text Label 3200 4950 0    60   ~ 0
 _SIDE
 Text Label 3200 4750 0    60   ~ 0
 _STEP
-Text Label 5400 4750 0    60   ~ 0
-_MTR
-Text Label 5400 4850 0    60   ~ 0
-_SEL
 Text Label 3200 5750 0    60   ~ 0
 _DKWD
 Text Label 3200 4850 0    60   ~ 0
 _DKWE
 Text Label 3200 4650 0    60   ~ 0
 _DIR
-Text Label 5400 5850 0    60   ~ 0
-USB_CONN
 Text Label 3200 5350 0    60   ~ 0
 USB_D-
 Text Label 3200 6150 0    60   ~ 0
@@ -579,8 +573,6 @@ Wire Wire Line
 	2900 2300 2900 2500
 Wire Wire Line
 	2900 1800 2900 2000
-Text Label 5400 6150 0    60   ~ 0
-_ACT
 Text Notes 8700 2200 0    50   ~ 0
 PWR LED
 $Comp
@@ -633,40 +625,7 @@ Wire Wire Line
 Text Notes 3050 2250 0    50   ~ 0
 [Optional] R7 replaces R10 on the Blue Pill.\nYou MUST remove R10 on the Blue Pill\nwhen installing R7.
 Wire Wire Line
-	3650 5450 3150 5450
-Wire Wire Line
-	3150 5350 3650 5350
-Wire Wire Line
-	3650 5250 3150 5250
-Wire Wire Line
-	3150 5150 3650 5150
-NoConn ~ 3650 5050
-Wire Wire Line
-	3650 4950 3150 4950
-Wire Wire Line
-	5400 4750 5250 4750
-Wire Wire Line
-	3150 4850 3650 4850
-Wire Wire Line
-	3650 4750 3150 4750
-Wire Wire Line
 	4350 4350 4350 4150
-Wire Wire Line
-	3150 6250 3650 6250
-Wire Wire Line
-	3150 6150 3650 6150
-Wire Wire Line
-	3650 6050 3150 6050
-Wire Wire Line
-	3650 5950 3150 5950
-NoConn ~ 3650 5850
-Wire Wire Line
-	3150 5750 3650 5750
-Wire Wire Line
-	3650 5650 3150 5650
-NoConn ~ 3650 5550
-Wire Wire Line
-	3650 4650 3150 4650
 Wire Wire Line
 	4250 6550 4250 6700
 Wire Wire Line
@@ -682,12 +641,6 @@ Wire Wire Line
 	4450 6700 4350 6700
 Connection ~ 4350 6700
 NoConn ~ 4250 4350
-Wire Wire Line
-	5250 6150 5400 6150
-Wire Wire Line
-	5250 5850 5400 5850
-Wire Wire Line
-	5250 4850 5400 4850
 $Comp
 L YAAJ_BluePill:YAAJ_BluePill U1
 U 1 1 559B9AF3
@@ -755,6 +708,65 @@ Wire Notes Line
 Text Notes 8100 3550 0    50   ~ 0
 Optionl: Replaces R1 to R4
 $Comp
+L power:+5V #PWR0117
+U 1 1 60087028
+P 9250 3950
+F 0 "#PWR0117" H 9250 3800 50  0001 C CNN
+F 1 "+5V" H 9250 4090 50  0000 C CNN
+F 2 "" H 9250 3950 60  0000 C CNN
+F 3 "" H 9250 3950 60  0000 C CNN
+	1    9250 3950
+	1    0    0    -1  
+$EndComp
+Text Label 5400 4650 0    60   ~ 0
+_RST
+Wire Wire Line
+	3650 5450 3150 5450
+Wire Wire Line
+	3150 5350 3650 5350
+Wire Wire Line
+	3650 5250 3150 5250
+Wire Wire Line
+	3150 5150 3650 5150
+Wire Wire Line
+	3650 4950 3150 4950
+Wire Wire Line
+	3150 4850 3650 4850
+Wire Wire Line
+	3650 4750 3150 4750
+Wire Wire Line
+	3150 6250 3650 6250
+Wire Wire Line
+	3150 6150 3650 6150
+Wire Wire Line
+	3650 6050 3150 6050
+Wire Wire Line
+	3650 5950 3150 5950
+Wire Wire Line
+	3150 5750 3650 5750
+Wire Wire Line
+	3650 5650 3150 5650
+Wire Wire Line
+	3650 4650 3150 4650
+Wire Wire Line
+	5250 6150 5400 6150
+Text Label 5400 6150 0    60   ~ 0
+_ACT
+Wire Wire Line
+	5250 5850 5400 5850
+Text Label 5400 5850 0    60   ~ 0
+USB_CONN
+Wire Wire Line
+	5250 4850 5400 4850
+Text Label 5400 4850 0    60   ~ 0
+_SEL
+Wire Wire Line
+	5700 4650 5250 4650
+Wire Wire Line
+	5400 4750 5250 4750
+Text Label 5400 4750 0    60   ~ 0
+_MTR
+$Comp
 L Switch:SW_Push SW1
 U 1 1 6005C4DD
 P 5900 4650
@@ -769,19 +781,7 @@ Text Label 6100 4950 0    60   ~ 0
 GND
 Wire Wire Line
 	6100 4650 6100 4950
-Wire Wire Line
-	5700 4650 5250 4650
-Text Label 5400 4650 0    60   ~ 0
-_RST
-$Comp
-L power:+5V #PWR0117
-U 1 1 60087028
-P 9250 3950
-F 0 "#PWR0117" H 9250 3800 50  0001 C CNN
-F 1 "+5V" H 9250 4090 50  0000 C CNN
-F 2 "" H 9250 3950 60  0000 C CNN
-F 3 "" H 9250 3950 60  0000 C CNN
-	1    9250 3950
-	1    0    0    -1  
-$EndComp
+NoConn ~ 3650 5850
+NoConn ~ 3650 5550
+NoConn ~ 3650 5050
 $EndSCHEMATC
