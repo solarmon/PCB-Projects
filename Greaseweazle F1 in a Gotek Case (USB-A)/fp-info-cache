@@ -1,4 +1,4 @@
-16034295037544120
+16035901981746540
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -48040,6 +48040,13 @@ module BlluePill Blue Pill header SWD breakout
 0
 44
 44
+Kicad-STM32-master
+YAAJ_BluePill_SWD_1_BootPins
+Through hole headers for BluePill module. No SWD breakout. Fancy silkscreen.
+module BlluePill Blue Pill header SWD breakout
+0
+50
+50
 Kicad-STM32-master
 YAAJ_BluePill_SWD_2
 Through hole headers for BluePill module. No SWD breakout. Fancy silkscreen.
