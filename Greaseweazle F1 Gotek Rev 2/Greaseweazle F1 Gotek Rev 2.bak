@@ -587,7 +587,7 @@ Wire Notes Line
 Wire Notes Line
 	9150 3600 8100 3600
 Text Notes 8100 3550 0    50   ~ 0
-Optionl: Replaces R1 to R4
+Optional: Replaces R1 to R4
 $Comp
 L power:+5V #PWR0117
 U 1 1 60087028
