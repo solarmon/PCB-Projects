@@ -6,4 +6,5 @@
   (lib (name devices-sergey)(type Legacy)(uri ${KIPRJMOD}/library/devices-sergey.lib)(options "")(descr ""))
   (lib (name memory-sergey)(type Legacy)(uri ${KIPRJMOD}/library/memory-sergey.lib)(options "")(descr ""))
   (lib (name intel-8xxx)(type Legacy)(uri ${KIPRJMOD}/library/intel-8xxx.lib)(options "")(descr ""))
+  (lib (name Greaseweazle-F1-3.5-Inch-Rev-2-rescue)(type Legacy)(uri "${KIPRJMOD}/Greaseweazle F1 3.5 Inch Rev 2-rescue.lib")(options "")(descr ""))
 )

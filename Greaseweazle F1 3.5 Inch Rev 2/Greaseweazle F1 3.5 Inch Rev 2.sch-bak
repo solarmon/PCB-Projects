@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Greaseweazle F1 3.5 Inch-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -290,29 +291,29 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0105
 U 1 1 5FBAF79D
-P 1675 2800
-F 0 "#PWR0105" H 1675 2650 50  0001 C CNN
-F 1 "+5V" H 1675 2940 50  0000 C CNN
-F 2 "" H 1675 2800 60  0000 C CNN
-F 3 "" H 1675 2800 60  0000 C CNN
-	1    1675 2800
-	-1   0    0    1   
+P 1775 1900
+F 0 "#PWR0105" H 1775 1750 50  0001 C CNN
+F 1 "+5V" H 1775 2040 50  0000 C CNN
+F 2 "" H 1775 1900 60  0000 C CNN
+F 3 "" H 1775 1900 60  0000 C CNN
+	1    1775 1900
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1675 2800 1675 2725
+	1775 1900 1775 1975
 $Comp
 L power:GND #PWR0110
 U 1 1 5FBB37E3
-P 1375 1650
-F 0 "#PWR0110" H 1375 1400 50  0001 C CNN
-F 1 "GND" H 1375 1500 50  0000 C CNN
-F 2 "" H 1375 1650 60  0000 C CNN
-F 3 "" H 1375 1650 60  0000 C CNN
-	1    1375 1650
-	-1   0    0    1   
+P 1775 2650
+F 0 "#PWR0110" H 1775 2400 50  0001 C CNN
+F 1 "GND" H 1775 2500 50  0000 C CNN
+F 2 "" H 1775 2650 60  0000 C CNN
+F 3 "" H 1775 2650 60  0000 C CNN
+	1    1775 2650
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1375 1950 1375 1875
+	1775 2450 1775 2600
 $Comp
 L Connector_Generic:Conn_02x17_Odd_Even CN1
 U 1 1 558A939C
@@ -366,6 +367,8 @@ F 3 "" H 2675 2350 30  0000 C CNN
 	1    2675 2350
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	2525 2350 1775 2350
 $Comp
 L Device:R R7
 U 1 1 5FC1C57F
@@ -756,27 +759,39 @@ F 3 "" H 2700 6225 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:USB_B J1
+L Connector_Generic:Conn_01x04 J1
 U 1 1 602B2F6E
-P 1375 2350
-F 0 "J1" H 1325 2800 50  0000 L CNN
-F 1 "USB B" H 1250 2700 50  0000 L CNN
-F 2 "w_conn_pc:conn_usb_B" H 1375 2350 50  0001 C CNN
-F 3 "~" H 1375 2350 50  0001 C CNN
-	1    1375 2350
-	1    0    0    1   
+P 1575 2250
+F 0 "J1" H 1525 2450 50  0000 L CNN
+F 1 "USB B" H 1475 2550 50  0000 L CNN
+F 2 "w_conn_pc:conn_usb_B" H 1575 2250 50  0001 C CNN
+F 3 "~" H 1575 2250 50  0001 C CNN
+	1    1575 2250
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J2
 U 1 1 6035923D
 P 1025 2250
 F 0 "J2" H 975 2450 50  0000 L CNN
-F 1 "USB Header" H 700 2550 50  0000 L CNN
+F 1 "USB Header" H 875 2550 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 1025 2250 50  0001 C CNN
 F 3 "~" H 1025 2250 50  0001 C CNN
 	1    1025 2250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	825  2150 1775 2150
+Connection ~ 1775 2150
+Wire Wire Line
+	825  2250 1775 2250
+Connection ~ 1775 2250
+Wire Wire Line
+	825  2350 1775 2350
+Connection ~ 1775 2350
+Wire Wire Line
+	825  2450 1775 2450
+Connection ~ 1775 2450
 $Comp
 L Connector_Generic:Conn_01x04 J4
 U 1 1 603BF3B3
@@ -1151,31 +1166,31 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5FE4DA0B
-P 1675 2725
-F 0 "#FLG0101" H 1675 2800 50  0001 C CNN
-F 1 "PWR_FLAG" V 1675 2853 50  0000 L CNN
-F 2 "" H 1675 2725 50  0001 C CNN
-F 3 "~" H 1675 2725 50  0001 C CNN
-	1    1675 2725
+P 1775 1975
+F 0 "#FLG0101" H 1775 2050 50  0001 C CNN
+F 1 "PWR_FLAG" V 1775 2103 50  0000 L CNN
+F 2 "" H 1775 1975 50  0001 C CNN
+F 3 "~" H 1775 1975 50  0001 C CNN
+	1    1775 1975
 	0    1    1    0   
 $EndComp
-Connection ~ 1675 2725
+Connection ~ 1775 1975
 Wire Wire Line
-	1675 2725 1675 2550
+	1775 1975 1775 2150
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5FE4EE2A
-P 1375 1700
-F 0 "#FLG0102" H 1375 1775 50  0001 C CNN
-F 1 "PWR_FLAG" V 1375 1828 50  0000 L CNN
-F 2 "" H 1375 1700 50  0001 C CNN
-F 3 "~" H 1375 1700 50  0001 C CNN
-	1    1375 1700
+P 1775 2600
+F 0 "#FLG0102" H 1775 2675 50  0001 C CNN
+F 1 "PWR_FLAG" V 1775 2728 50  0000 L CNN
+F 2 "" H 1775 2600 50  0001 C CNN
+F 3 "~" H 1775 2600 50  0001 C CNN
+	1    1775 2600
 	0    1    1    0   
 $EndComp
-Connection ~ 1375 1700
+Connection ~ 1775 2600
 Wire Wire Line
-	1375 1700 1375 1650
+	1775 2600 1775 2650
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5FE59F40
@@ -1271,7 +1286,7 @@ F 3 "" H 10900 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Greaseweazle-F1-3.5-Inch-Rev-2-rescue:Arduino_Nano_v3.x-MCU_Module A1
+L MCU_Module:Arduino_Nano_v3.x A1
 U 1 1 5FF64EA5
 P 6350 5925
 F 0 "A1" H 6350 6175 50  0000 C CNN
@@ -1322,7 +1337,7 @@ _RST
 Text Label 6850 5425 0    60   ~ 0
 _RST
 $Comp
-L Greaseweazle-F1-3.5-Inch-Rev-2-rescue:AP2112K-3.3-Regulator_Linear U2
+L Regulator_Linear:AP2112K-3.3 U2
 U 1 1 60013E33
 P 4875 2800
 F 0 "U2" H 4875 3142 50  0000 C CNN
@@ -1618,43 +1633,4 @@ F 3 "" H 5875 3575 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	6375 3575 6375 4075
-Wire Wire Line
-	1675 2250 1775 2250
-$Comp
-L power:+5V #PWR?
-U 1 1 600F9257
-P 825 2150
-F 0 "#PWR?" H 825 2000 50  0001 C CNN
-F 1 "+5V" H 825 2290 50  0000 C CNN
-F 2 "" H 825 2150 60  0000 C CNN
-F 3 "" H 825 2150 60  0000 C CNN
-	1    825  2150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1275 1950 1275 1875
-Wire Wire Line
-	1275 1875 1375 1875
-Connection ~ 1375 1875
-Wire Wire Line
-	1375 1875 1375 1700
-$Comp
-L power:GND #PWR?
-U 1 1 60126EE9
-P 825 2450
-F 0 "#PWR?" H 825 2200 50  0001 C CNN
-F 1 "GND" H 825 2300 50  0000 C CNN
-F 2 "" H 825 2450 60  0000 C CNN
-F 3 "" H 825 2450 60  0000 C CNN
-	1    825  2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	825  2350 1675 2350
-Connection ~ 1675 2350
-Wire Wire Line
-	1675 2350 2525 2350
-Wire Wire Line
-	1675 2250 825  2250
-Connection ~ 1675 2250
 $EndSCHEMATC
