@@ -3,9 +3,9 @@
 // Supports following screens:
 // * LEDC68
 // * 0.91" 128x32 I2C OLED
-// * 0.96" 128x64 I2C OLED (TBC)
+// * 0.96" 128x64 I2C OLED
 //
-// Following OLED driver supported
+// Following OLED driver libraries supported
 // * SSD1306
 // * SSH1106 (TBC)
 /**************************************************************************/
