@@ -12,6 +12,16 @@ K male D-SUB connector
 F  ~
 $ENDCMP
 #
+$CMP Denise_ECS_8373
+D Denise_8373
+$ENDCMP
+#
+$CMP SW_DPDT_x4
+D Switch, quad pole double throw, separate symbols
+K switch quad-pole double-throw 4PDT spdt ON-ON
+F ~
+$ENDCMP
+#
 $CMP YAAJ_BluePill_Part_Like_SWD_BOOT_Breakout
 D STM32 Blue Pill ; not KLC compliant ; SWD broken out
 K module blue pill STM32 SWD
