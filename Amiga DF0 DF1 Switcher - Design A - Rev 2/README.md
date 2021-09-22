@@ -10,7 +10,7 @@ It can work in two modes:
 This switching / selection is done using a DPDT On-On switch connected to the **SW1** header pins.
 
 Top:
-![Top](https://github.com/solarmon/PCB-Projects/blob/master/Amiga%20DF0%20DF1%20Switcher%20-%20Design%20A/Amiga%20DF0%20DF1%20Switcher%20-%20Design%20A%20-%20Top.png)
+![Top](https://github.com/solarmon/PCB-Projects/blob/master/Amiga%20DF0%20DF1%20Switcher%20-%20Design%20A%20-%20Rev%202/Amiga%20DF0%20DF1%20Switcher%20-%20Design%20A%20-%20Rev%202%20-%20Top.png)
 
 Bottom:
-![Bottom](https://github.com/solarmon/PCB-Projects/blob/master/Amiga%20DF0%20DF1%20Switcher%20-%20Design%20A/Amiga%20DF0%20DF1%20Switcher%20-%20Design%20A%20-%20Bottom.png)
+![Bottom](https://github.com/solarmon/PCB-Projects/blob/master/Amiga%20DF0%20DF1%20Switcher%20-%20Design%20A%20-%20Rev%202/Amiga%20DF0%20DF1%20Switcher%20-%20Design%20A%20-%20Rev%202%20-%20Bottom.png)
