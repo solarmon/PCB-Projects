@@ -16,6 +16,18 @@ $CMP Denise_ECS_8373
 D Denise_8373
 $ENDCMP
 #
+$CMP FFC_18
+D Generic connector, single row, 01x19, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP FPV_20
+D Generic connector, single row, 01x21, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP SW_DPDT_x4
 D Switch, quad pole double throw, separate symbols
 K switch quad-pole double-throw 4PDT spdt ON-ON

@@ -17,8 +17,8 @@ D Denise_8373
 $ENDCMP
 #
 $CMP SW_DPDT_x4
-D Switch, dual pole double throw, separate symbols
-K switch dual-pole double-throw DPDT spdt ON-ON
+D Switch, quad pole double throw, separate symbols
+K switch quad-pole double-throw 4PDT spdt ON-ON
 F ~
 $ENDCMP
 #
